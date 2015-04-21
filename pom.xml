@@ -211,6 +211,13 @@
 
 		<!-- Databases - Uses HSQL by default -->
 		<!-- <dependency> <groupId>mysql</groupId> <artifactId>mysql-connector-java</artifactId> <version>${mysql.version}</version> </dependency> -->
+
+	    <dependency> 
+	    	<groupId>mysql</groupId> 
+	    	<artifactId>mysql-connector-java</artifactId> 
+	    	<version>${mysql.version}</version> 
+	    </dependency>
+	    
 		<dependency>
 			<groupId>org.hsqldb</groupId>
 			<artifactId>hsqldb</artifactId>
